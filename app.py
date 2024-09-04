@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # Load the model
-with open('best_model_1.pkl', 'rb') as file:
+with open('Best_Model_1.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Load car data for brand selection
