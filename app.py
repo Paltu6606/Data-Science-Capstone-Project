@@ -10,7 +10,7 @@ with open('Best_Model_1.pkl', 'rb') as file:
 
 
 # Load your trained model
-model = joblib.load('Best_Model_1.pkl')  # Change this to your model's filename
+# model = joblib.load('Best_Model_1.pkl')  # Change this to your model's filename
 
 # Title of the app
 st.title("Car Price Prediction App")
