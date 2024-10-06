@@ -4,7 +4,7 @@ import pandas as pd
 import pickle  # Use pickle instead of joblib
 
 # Load your trained model
-with open('car_price_model.pkl', 'rb') as file:
+with open('Best_Model_1.pkl', 'rb') as file:
     model = pickle.load(file)
 
 
