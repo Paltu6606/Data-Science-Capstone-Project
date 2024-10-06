@@ -1,6 +1,13 @@
+
 import streamlit as st
 import pandas as pd
-import joblib  # or pickle if you used that to save your model
+import pickle  # Use pickle instead of joblib
+
+# Load your trained model
+with open('car_price_model.pkl', 'rb') as file:
+    model = pickle.load(file)
+
+
 
 # Load your trained model
 model = joblib.load('Best_Model_1.pkl')  # Change this to your model's filename
